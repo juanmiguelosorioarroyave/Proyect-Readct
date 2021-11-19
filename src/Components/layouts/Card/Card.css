@@ -1,0 +1,86 @@
+.box-mi-body{
+    top: 25rem;
+    left: 50rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    background: #0e1538;
+    border-radius: 20px;
+    z-index: 1;
+  }
+  
+  .App-logo {
+    width: 70%;
+    height: 20vmin;
+    pointer-events: none;
+    border-radius: 2px;
+  }
+  
+  .box {
+    position: relative;
+    width: 320px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .box::before
+  {
+    content: '';
+      position: absolute;
+      width: 100px;
+      height: 170%;
+      background: linear-gradient(#00d1e1, #c3ff00);
+      animation: animate 4s linear infinite;
+      border-radius: 16px;
+      z-index: -1;
+  }
+  
+  .box::after
+  {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #0e1538;
+    border-radius: 16px;
+    z-index: -1;
+  }
+  
+  @keyframes animate {
+    0%
+    {
+      transform: rotate(0deg);
+    }
+    100%
+    {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .box h2 {
+    color: #fff;
+      font-size: 2em;
+      position: absolute;
+      z-index: 1;
+      top: -14px;
+  }
+  
+  p {
+      color: #fff;
+      top: 271px;
+      position: absolute;
+      font-size: 1.5rem;
+    }
+    
+  elemento {
+      left: 40rem;
+      position: absolute;
+  }
+  
+  

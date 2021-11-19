@@ -3,9 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Card from './Components/layouts/Card/Card';
+import Menu from  './Components/layouts/header/header';
+import Main from './Components/UI/Main/Main';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Card />
+    <Menu />
+    <Main />
     <App />
   </React.StrictMode>,
   document.getElementById('root')

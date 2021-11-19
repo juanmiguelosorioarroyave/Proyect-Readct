@@ -1,0 +1,17 @@
+div.text-main {
+    border-style: double;
+    padding: 5px;
+    width: 116rem;
+    height: 10rem;
+    margin-top: 22px;
+    left: 30px;
+    position: relative;
+}
+
+h1.text-div-main {
+    align-content: center;
+    display: flex;
+    align-items: center;
+    left: 38rem;
+    position: relative;
+}
